@@ -1,1 +1,25 @@
 
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Private keys and credentials
+*.pem
+*.ppk
+credentials
+.aws/
+
+# Secrets
+secrets/
+*secret*
+*password*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
